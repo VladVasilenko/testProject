@@ -1,0 +1,7 @@
+# global codeception file to run tests from all apps
+include:
+    - common
+paths:
+    output: console/runtime/output
+settings:
+    colors: true
